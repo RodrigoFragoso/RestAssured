@@ -24,7 +24,7 @@ public class UsuarioAdmTest {
 
     private String idUsuario;
     @Before
-    public void setup() throws IOException {
+    public void setUp() throws IOException {
         Configurations configurations = ConfigFactory.create(Configurations.class);
         baseURI = configurations.baseUri();
         Usuario usuarioAdm = UsuarioDataFactory.criarUsuarioAdm(name, name+"@testando.com");

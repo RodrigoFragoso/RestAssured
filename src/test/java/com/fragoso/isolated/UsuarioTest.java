@@ -22,7 +22,7 @@ public class UsuarioTest {
 
     private String idUsuario;
     @Before
-    public void setup() throws IOException{
+    public void setUp() throws IOException{
         Configurations configurations = ConfigFactory.create(Configurations.class);
         baseURI = configurations.baseUri();
         Usuario usuario = UsuarioDataFactory.criarUsuario(name,name+"@testando.com");
