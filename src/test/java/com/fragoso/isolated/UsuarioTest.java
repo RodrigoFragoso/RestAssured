@@ -4,7 +4,6 @@ import com.fragoso.config.Configurations;
 import com.fragoso.factory.UsuarioDataFactory;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.equalToIgnoringCase;
 
 import com.fragoso.pojo.Usuario;
 import com.github.javafaker.Faker;

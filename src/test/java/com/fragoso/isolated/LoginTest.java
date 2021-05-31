@@ -1,19 +1,13 @@
 package com.fragoso.isolated;
 import com.fragoso.config.Configurations;
 import com.fragoso.factory.LoginDataFactory;
-import com.fragoso.factory.UsuarioDataFactory;
 import com.fragoso.pojo.Login;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalToIgnoringCase;
 
-import com.fragoso.pojo.Usuario;
-import com.github.javafaker.Faker;
 import io.restassured.http.ContentType;
 import org.aeonbits.owner.ConfigFactory;
-import org.junit.Before;
 import org.junit.Test;
-
-import java.io.IOException;
 
 public class LoginTest {
     private String token;
